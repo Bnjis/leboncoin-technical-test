@@ -10,4 +10,6 @@ J'ai l'habitude de travailler avec react-router-dom, le Next.js m'a un peu fait 
 
 Je pense qu'il manquerait un petit fetch pour une conversation en particulier.
 
+Pour la sauvegarde des messages, je suppose que c'est fait exprès de ne pas les enregistrer correctement donc je n'ai pas touché.
+
 Merci pour cette relecture, désolé pour l'attente.
