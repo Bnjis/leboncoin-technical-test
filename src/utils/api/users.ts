@@ -8,3 +8,5 @@ export const users = {
     return get(`http://localhost:3005/user/${id}`);
   }
 }
+
+export default users;

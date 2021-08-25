@@ -1,0 +1,136 @@
+.card-conversation {
+    cursor: pointer;
+    border-radius: 15px !important;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header-conversation {
+    margin-top: 10px;
+    padding: 10px 16px;
+    border-top: solid 1px #555;
+    top: 0;
+    width: 100%;
+    background-color: lightgray;
+    z-index: 1;
+}
+
+.back-span {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.chat {
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 800px;
+    height: calc(100vh - 125px);
+    min-height: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    transform: rotate(180deg);
+    direction: rtl;
+}
+
+.wrapper {
+    max-width: 800px;
+    height: calc(100vh - 125px);
+    overflow-y: auto;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.myMessage {
+    background-color: rgb(0, 132, 255) !important;
+    border-radius: 20px;
+    margin: 1px auto;
+    max-width: 425px !important;
+    padding: 8px 14px;
+    width: -webkit-fit-content !important;
+    float: right;
+    color: white;
+    word-break: break-all;
+}
+
+.otherMessage {
+    background-color: rgb(204, 204, 204) !important;
+    border-radius: 20px;
+    margin: 1px auto;
+    max-width: 425px !important;
+    padding: 8px 14px;
+    width: -webkit-fit-content !important;
+    float: left;
+    word-break: break-all;
+}
+
+.senderName {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.line-me {
+    overflow: auto;
+    float: left;
+    width: 60%;
+    direction: ltr;
+    transform: rotate(180deg);
+}
+
+.line-other {
+    overflow: auto;
+    float: right;
+    width: 60%;
+    direction: ltr;
+    transform: rotate(180deg);
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.text-message {
+    height: 40px;
+    font-size: 16px;
+    min-width: 90%;
+    padding-left: 15px;
+    background-color: #fff;
+    border-radius: 15px !important;
+    border: none;
+}
+.button-send {
+    position: absolute !important;
+    z-index: 3 !important;
+    right: 10px;
+    height: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.float-right {
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-mobile
+    {display:none;}
+}
