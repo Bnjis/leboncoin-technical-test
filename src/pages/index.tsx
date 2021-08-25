@@ -10,7 +10,7 @@ const Home: FC = () => {
   const year = new Date().getFullYear()
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Messagerie</title>
         <meta name="description" content="Frontend exercise for developpers who want to join us on leboncoin.fr"></meta>
